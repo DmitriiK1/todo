@@ -1,0 +1,16 @@
+.tasks{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 3px 3px 5px grey;
+    padding: 10px;
+}
+.tasks__el{
+    margin: 5px;
+    max-width: 150px;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.tasks__delete{
+    cursor: pointer;
+}
